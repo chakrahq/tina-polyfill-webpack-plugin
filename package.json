@@ -1,0 +1,22 @@
+{
+  "name": "tina-polyfill-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Tina CMS plugin to polyfill nodejs core modules in webpack.",
+  "author": "",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "net-browserify": "^0.2.4",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
+  }
+}
