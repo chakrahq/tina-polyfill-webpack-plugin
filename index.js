@@ -6,6 +6,7 @@ module.exports = class TinaPolyfillPlugin {
 			assert: require.resolve('assert/'),
 			constants: require.resolve('constants-browserify'),
 			crypto: require.resolve('crypto-browserify'),
+			fs: false,
 			http: require.resolve('stream-http'),
 			https: require.resolve('https-browserify'),
 			net: require.resolve('net-browserify'),
@@ -15,6 +16,7 @@ module.exports = class TinaPolyfillPlugin {
 			stream: require.resolve('stream-browserify'),
 			url: require.resolve('url/'),
 			util: require.resolve('util/'),
+			zlib: require.resolve('browserify-zlib'),
 		};
 	}
 };
