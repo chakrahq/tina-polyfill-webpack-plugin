@@ -1,9 +1,14 @@
 'use strict';
 
+// References:
+// - https://github.com/Richienb/node-polyfill-webpack-plugin
+// - https://github.com/niksy/node-stdlib-browser
+
 module.exports = class TinaPolyfillPlugin {
 	apply(compiler) {
 		compiler.options.resolve.fallback = {
 			assert: require.resolve('assert/'),
+			async_hooks: false,
 			constants: require.resolve('constants-browserify'),
 			crypto: require.resolve('crypto-browserify'),
 			fs: false,
