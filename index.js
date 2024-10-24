@@ -19,6 +19,7 @@ module.exports = class TinaPolyfillPlugin {
 			path: require.resolve('path-browserify'),
 			querystring: require.resolve('querystring-es3'),
 			stream: require.resolve('stream-browserify'),
+			timers: require.resolve('timers-browserify'),
 			url: require.resolve('url/'),
 			util: require.resolve('util/'),
 			vm: require.resolve('vm-browserify'),
