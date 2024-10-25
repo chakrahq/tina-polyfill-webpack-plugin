@@ -1,6 +1,6 @@
 {
   "name": "tina-polyfill-webpack-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Tina CMS plugin to polyfill nodejs core modules in webpack.",
   "author": "",
   "main": "index.js",
